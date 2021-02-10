@@ -1,7 +1,6 @@
-package de.check24.learningkotlin.java;
+package de.check24.learningKotlinJava.java;
 
-public class RangeOperatorTest {
-
+public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("hello world");
     }
