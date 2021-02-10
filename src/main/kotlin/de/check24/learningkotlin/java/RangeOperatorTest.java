@@ -1,4 +1,4 @@
-package de.check24.learningkotlin;
+package de.check24.learningkotlin.java;
 
 public class RangeOperatorTest {
 
