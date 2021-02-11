@@ -8,4 +8,12 @@ fun main() {
         println("widthLabel is of type String")
     }
     // widthLabel is a String
+
+    // TypeCoercion Error Example:
+    println('A' + 0)
+    // A
+    println('A' + 50 + "A")
+    // sA
+    println("A" + 'A' + 50)
+    // AA50
 }
