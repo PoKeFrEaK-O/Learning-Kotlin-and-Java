@@ -12,7 +12,11 @@ public class Intersection_of_A_and_B {
         System.out.println("Liste A: " + A);
         System.out.println("Liste B: " + B);
 
-        A.retainAll(B);
-        System.out.println("Schnittmenge von A und B: " + A);
+        A.retainAll(B); // Retains only the elements in A that are contained in B.
+        System.out.println("Intersection of A and B: " + A);
     }
 }
+// Ausgabe:
+// Liste A: [a, b, c, d, e]
+// Liste B: [f, e, h, b, e]
+// Intersection of A and B: [b, e]

@@ -1,4 +1,3 @@
-// Zweite Folie
 package de.check24.learningKotlinJava.java;
 
 import java.util.ArrayList;
@@ -17,8 +16,14 @@ public class Union_of_A_and_B {
 
         Set<String> setAB = new HashSet<>();
 
+        // Adds the elements of lists A and B to the set setAB:
         setAB.addAll(A);
         setAB.addAll(B);
+
         System.out.println(setAB);
     }
 }
+// Ausgabe:
+// Liste A: [a, b, c, d, e]
+// Liste B: [f, e, h, b, e]
+// [a, b, c, d, e, f, h]
