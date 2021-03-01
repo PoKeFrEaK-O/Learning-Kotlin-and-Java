@@ -4,7 +4,7 @@ fun main() {
     val a = mutableListOf("a", "b", "c", "d", "e")
     val b = mutableListOf("f", "e", "h", "b", "e")
 
-    println("Liste A: $a")
+    println("Liste A: ${a.union(b)}")
     println("Liste B: $b")
 
     val setab = mutableSetOf<String>()

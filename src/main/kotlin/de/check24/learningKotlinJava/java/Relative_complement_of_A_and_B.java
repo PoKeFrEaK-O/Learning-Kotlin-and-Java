@@ -29,6 +29,7 @@ public class Relative_complement_of_A_and_B {
         relativeComplement.removeAll(intersection);
         // union minus intersection equals symmetric-difference
         System.out.println("Symmetric difference of A and B: " + relativeComplement);
+        // ---------------
 
         relativeComplement.removeAll(B);
         // symmetric-difference minus B equals relativeComplement

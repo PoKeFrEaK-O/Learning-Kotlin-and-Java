@@ -22,6 +22,7 @@ fun main() {
     relativeComplement.removeAll(intersection)
     // union minus intersection equals symmetric-difference
     println("Symmetric difference of a and b: $relativeComplement")
+    // ---------------
 
     relativeComplement.removeAll(b)
     // symmetric-difference minus b equals relativeComplement

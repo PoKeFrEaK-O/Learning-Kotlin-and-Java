@@ -4,7 +4,7 @@ fun main() {
     val a = mutableListOf("a", "b", "c", "d", "e")
     val b = mutableListOf("f", "e", "h", "b", "e")
 
-    println("Liste A: $a")
+    println("Liste A: ${a.intersect(b)}")
     println("Liste B: $b")
 
     a.retainAll(b) // Retains only the elements in a that are contained in b.
