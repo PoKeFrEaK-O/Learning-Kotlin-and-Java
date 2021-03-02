@@ -4,8 +4,8 @@ fun main() {
     val a = mutableListOf("a", "b", "c", "d", "e")
     val b = mutableListOf("f", "e", "h", "b", "e")
 
-    println("Liste A: $a")
-    println("Liste B: $b")
+    println("Liste a: $a")
+    println("Liste b: $b")
 
 
     val symmetricDiff = mutableSetOf<String>()
@@ -23,12 +23,12 @@ fun main() {
     symmetricDiff.removeAll(intersection)
     // union minus intersection equals symmetric-difference
     println("------------------")
-    println("Symmetric difference of A and B: $symmetricDiff")
+    println("Symmetric difference of a and b: $symmetricDiff")
 }
 // Ausgabe:
-// Liste A: [a, b, c, d, e]
-// Liste B: [f, e, h, b, e]
+// Liste a: [a, b, c, d, e]
+// Liste b: [f, e, h, b, e]
 // Union of a and b: [a, b, c, d, e, f, h]
 // Intersection of a and b: [b, e]
 // ------------------
-// Symmetric difference of A and B: [a, c, d, f, h]
+// Symmetric difference of a and b: [a, c, d, f, h]
