@@ -1,4 +1,4 @@
-package de.check24.learningKotlinJava.kotlin
+package de.check24.learningKotlinJava.kotlin.functions
 
 fun main() {
     fun greet(name: String, day: String): String {
