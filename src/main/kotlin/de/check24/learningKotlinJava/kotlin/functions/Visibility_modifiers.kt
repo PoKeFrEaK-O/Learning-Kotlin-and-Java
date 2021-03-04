@@ -23,3 +23,8 @@ private fun hello() {
 
 // protected:
 // Declarations are only visible in its class and in its subclassess
+
+// Ausgabe:
+// 25
+// Hello
+// Test
